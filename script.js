@@ -67,7 +67,7 @@ btnHold.addEventListener("click", function () {
       scores[activePlayer];
 
     //check kro score 100 hai ya nhi
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 50) {
       //Finish the game
       playing = false;
       diceEl.classList.add("hidden");
